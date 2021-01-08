@@ -195,7 +195,7 @@
                         <div class="container">
                             <!-- - -->
                             <div class="title-event t-center m-b-52">
-                                <h3 class="tit6 t-center p-l-15 p-r-15 p-t-3">
+                                <h3 class="tit9 t-center p-l-15 p-r-15 p-t-3" style="color: white;">
                                     Proscimamonter ne saral degügn evenc
                                 </h3>
                             </div>
