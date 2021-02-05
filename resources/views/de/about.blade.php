@@ -34,7 +34,7 @@
     </h3>
 
     <p class="t-center size32 m-l-r-auto">
-        "Le tomp de Corona á porté düc y dötes cantes a se fá pinsiers sön la vita tl monn, la natöra y sön tan che i tacun adöm con i atri.
+        <!-- "Le tomp de Corona á porté düc y dötes cantes a se fá pinsiers sön la vita tl monn, la natöra y sön tan che i tacun adöm con i atri.
         Án capí ci co é veramonter emportant por nos: la sanité, le mangé y la natöra, le sté adöm y se baié önn con l’ater. Döt cösc ánse tlo da nos.
 
         Fora de cösta esperionza nasc <b>AGRICOLART</b>, le <b>Marcé dai Paurs nö</b>.
@@ -52,7 +52,8 @@
         Gnide a se ciafé, baiede con nos, orun se cunté de nosc laur, nüsc valurs, nosta tradiziun."
 
         <br>
-        Roland Erlacher
+        Roland Erlacher -->
+        {{ $ourideaText->de_text }}
     </p>
 </section>
 
