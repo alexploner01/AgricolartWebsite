@@ -77,7 +77,7 @@
                             <nav class="menu">
                                 <ul class="main_menu">
                                     <li>
-                                        <a href="/">Start</a>
+                                        <a href="/">{{ $navbarStart->de_text }}</a>
                                     </li>
 
                                     <!-- <li>
@@ -85,11 +85,11 @@
                                     </li> -->
 
                                     <li>
-                                        <a href="/about">Über Uns</a>
+                                        <a href="/about">{{ $navbarAboutus->de_text }}</a>
                                     </li>
 
                                     <li>
-                                        <a href="/gallery">Gallerie</a>
+                                        <a href="/gallery">{{ $navbarGallery->de_text }}</a>
                                     </li>
 
                                     <!-- <li>

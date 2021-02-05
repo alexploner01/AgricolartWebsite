@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-    $acceptLang = ['la', 'it', 'en', 'de']; 
+    $acceptLang = ['la', 'it', 'en', 'de', 'fr']; 
     $lang = in_array($lang, $acceptLang) ? $lang : 'en';
     
     return redirect($lang);
@@ -26,7 +26,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
 
     $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-    $acceptLang = ['la', 'it', 'en', 'de']; 
+    $acceptLang = ['la', 'it', 'en', 'de', 'fr']; 
     $lang = in_array($lang, $acceptLang) ? $lang : 'en';
     
     return redirect("${lang}/about");
@@ -36,7 +36,7 @@ Route::get('/about', function () {
 Route::get('/gallery', function () {
 
     $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-    $acceptLang = ['la', 'it', 'en', 'de']; 
+    $acceptLang = ['la', 'it', 'en', 'de', 'fr']; 
     $lang = in_array($lang, $acceptLang) ? $lang : 'en';
     
     return redirect("${lang}/gallery");
@@ -46,7 +46,7 @@ Route::get('/gallery', function () {
 Route::get('/events/{id}', function ($id) {
 
     $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-    $acceptLang = ['la', 'it', 'en', 'de']; 
+    $acceptLang = ['la', 'it', 'en', 'de', 'fr']; 
     $lang = in_array($lang, $acceptLang) ? $lang : 'en';
     
     return redirect("${lang}/events/${id}");
